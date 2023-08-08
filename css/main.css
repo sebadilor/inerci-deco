@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000 & display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+
+.menu {
+    position: sticky;
+    z-index: 1;
+}
+
+.menu li {
+    display: inline;
+    margin-inline: 10px;
+    padding-inline: 20px;
+}
+
+.menu li a {
+    color: rgb(176, 123, 53);
+    text-decoration: none;
+} 
+
+.menu_item.active a,
+.menu_item a:hover { /*por qué no funciona cuando paso el cursor?*/
+    text-decoration: underline;
+}
+
+.cajaimg {
+    margin: 20px 0 20px 0;
+}
+
+.caja1 h1, h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 1rem;
+}
+
+.caja1 h2 {
+    color: rgb(176, 123, 53);
+}
+
+.caja1 p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    width: 700px;
+    text-align: center;
+    /*como puedo centrar el texto <p>?*/
+    margin-left: 25%;
+}
+    
+.caja1 span {
+    color: rgb(209, 159, 93);
+}
