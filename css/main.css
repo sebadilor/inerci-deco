@@ -5,28 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
-    font-weight: 800;
 }
 
-.menu {
-    position: sticky;
-    z-index: 1;
-}
-
-.menu li {
-    display: inline;
-    margin-inline: 10px;
-    padding-inline: 20px;
-}
-
-.menu li a {
-    color: rgb(176, 123, 53);
-    text-decoration: none;
-} 
-
-.menu_item.active a,
-.menu_item a:hover { /*por qué no funciona cuando paso el cursor?*/
-    text-decoration: underline;
+.logo {
+    width: 150px;
 }
 
 .cajaimg {
