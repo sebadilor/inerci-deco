@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
-}
 
 .logo {
     width: 90px;
@@ -15,10 +14,15 @@
     text-decoration: underline;
 }
 
+
 .container {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+}
+
+.container-color {
+    background-color: rgba(176, 123, 53, 0.061);
 }
 
 .caja1 {
@@ -49,4 +53,9 @@
     
 .caja1 span {
     color: rgb(209, 159, 93);
+}
+
+.pie {
+    background-color: rgba(176, 123, 53, 0.061);
+    
 }

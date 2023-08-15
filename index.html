@@ -11,38 +11,49 @@
 <body>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid container-color">
               <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo/inerci sin fondo.png" alt="Logo de Inerci Deco" title="Logo de Inerci Deco" width="200px"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./pages/nosotro.html">Nosotros</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./pages/productos.html">Todos los productos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Almohadones</a></li>
+                        <li><a class="dropdown-item" href="#">Telas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./img/catalogo/Catalogo .pdf" target="_blank">Catálogo</a></li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./pages/home_deco.html">Home Deco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./pages/contactos.html">Contacto</a>
+                    </li>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/home_deco.html">Home Deco</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
             </div>
-            <div class="container-fluid">
-                <form class="d-flex" role="buscar">
-                  <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-          </div>
-        </nav>
+          </nav>
     </header>
     <main>
         <section class="caja1">
@@ -53,10 +64,16 @@
         </section>
     </main>
     <div class="cajaimg">
-        <img src="./img/fondo.png" alt="Fondo" title="Fondo" width="100%">
+        <img src="./img/elegante-sala-estar-escandinava-muebles-sofa-menta-diseno-que-burlan-plantas-mapa-cartel-eleg_1258-152155.avif" alt="Fondo" title="Fondo" width="100%">
     </div>
-    <footer>
+    <footer class="pie">
         <div>
+            <div>
+                <p>Seguinos en:</p>
+            </div>
+            <div>
+                <p>©Copyright 2021. Todos los Derechos Reservados. Política de Privacidad | Términos & Condiciones</p>
+            </div>
             <div>
                 <h3>Montevideo, Uruguay</h3>
             </div>
