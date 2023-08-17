@@ -23,7 +23,7 @@
 }
 
 .container-color {
-    background-color: rgba(176, 123, 53, 0.061);
+    background-color: rgba(186, 132, 33, 0.142);
 }
 
 .caja1 {
@@ -31,8 +31,36 @@
     padding-inline: 200px;
 }
 
-.cajaimg {
+.imagen__principal {
     margin: 20px 0 20px 0;
+}
+
+.tarjetas__inicio {
+    display: flex;
+    padding: 20px 60px 60px 60px;
+    gap: 30px;
+}
+
+.tarjeta__inicio {
+    background-color: rgba(196, 129, 63, 0.567);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta__texto--inicio {
+    text-align: center;
+    padding-inline: 20px;
+}
+
+.tarjeta__imagen {
+    max-width: 100%;
+}
+
+.subtitulo__inicio {
+    padding-block: 40px;
 }
 
 .caja1 h1, h2 {
@@ -57,6 +85,15 @@
 }
 
 .pie {
-    background-color: rgba(176, 123, 53, 0.061);
-    
+    padding: 1rem;
+    background-color: rgba(186, 132, 33, 0.142);
+}
+
+.pie__pagina {
+    display: flex;
+    padding: 1rem;
+    font-size: small;
+    gap: 3rem;
+    grid-gap: 3rem;
+    justify-content: space-between;
 }
