@@ -74,10 +74,20 @@
     color: rgb(176, 123, 53);
 }
 
+.caja1 {
+    flex-direction: column;
+}
+
 .caja1 p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     text-align: center;
+}
+
+.nosotros {
+    background-color: rgba(200, 147, 57, 0.363);
+    padding: 20px;
+    margin: 40px;
 }
     
 .caja1 span {
