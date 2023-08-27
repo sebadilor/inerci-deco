@@ -92,9 +92,16 @@
 }
 
 .nosotros {
-    background-color: rgba(200, 147, 57, 0.363);
+    background-image: url(../img/1000_F_443553257_2CGHvyBZ4zOoAdpgaAAQUxW3frEpwFbJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 80vh;
     padding: 20px;
-    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
 }
     
 .caja1 span {
@@ -119,7 +126,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 0 40px;
     }
 
 .tarjetas__inicio {
