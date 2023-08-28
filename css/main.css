@@ -140,6 +140,10 @@
     align-items: center;
   }
 
+  .iconos__redes--sociales {
+    color: rgb(176, 123, 53);
+  }
+
 
 @media (min-width: 801px) {
     .caja1 {
