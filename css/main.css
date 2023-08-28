@@ -9,6 +9,7 @@
 
 .logo {
     width: 90px;
+    height: auto;
 }
 
 .nav-link.active {
@@ -17,9 +18,9 @@
 
 
 .container {
-    display: flex;
-    flex-direction: column;
     max-width: 100%;
+    margin: auto;
+    padding: 20px;
 }
 
 .container-color {
@@ -28,17 +29,23 @@
 
 .caja1 {
     display: flex;
-    padding-inline: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0 20px 0 20px;
 }
 
 .imagen__principal {
     margin: 20px 0 20px 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .tarjetas__inicio {
     display: flex;
+    flex-direction: column;
     padding: 20px 60px 60px 60px;
     gap: 30px;
+    justify-content: center;
 }
 
 .tarjeta__inicio {
@@ -48,6 +55,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 .tarjeta__texto--inicio {
@@ -57,11 +65,13 @@
 
 .tarjeta__imagen {
     max-width: 100%;
+    height: auto;
 }
 
 .subtitulo__inicio {
-    padding-block: 40px;
+    padding-block: 30px 0 20px 0;
 }
+
 
 .caja1 h1, h2 {
     font-family: 'Nunito Sans', sans-serif;
@@ -74,9 +84,6 @@
     color: rgb(176, 123, 53);
 }
 
-.caja1 {
-    flex-direction: column;
-}
 
 .caja1 p {
     font-family: 'Nunito Sans', sans-serif;
@@ -85,10 +92,25 @@
 }
 
 .nosotros {
-    background-color: rgba(200, 147, 57, 0.363);
+    background-image: url(../img/1000_F_443553257_2CGHvyBZ4zOoAdpgaAAQUxW3frEpwFbJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 80vh;
     padding: 20px;
-    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.nosotros p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
     
 .caja1 span {
     color: rgb(209, 159, 93);
@@ -101,9 +123,42 @@
 
 .pie__pagina {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
     font-size: small;
-    gap: 3rem;
-    grid-gap: 3rem;
-    justify-content: space-between;
+    
+   text-align: center;
+   justify-content: space-between;
+  }
+@media (min-width: 801px) {
+    .caja1 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+.tarjetas__inicio {
+    flex-direction: row;
+}
+
+.tarjeta__inicio {
+    width: calcl(33.33% - 40px);
+}
+
+.tarjeta__texto--inicio {
+    padding: 0;
+}
+}
+
+
+
+@media (min-width: 801px) {
+    .pie {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pie__pagina {
+        flex-direction: row;
+    }
 }
