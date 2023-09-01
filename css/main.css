@@ -104,16 +104,54 @@
     align-items: center;
 }
 
+.nosotros h1 {
+    padding: 0 0 50px 0;
+}
+
 .nosotros p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
-
     
 .caja1 span {
-    color: rgb(209, 159, 93);
+    color: rgb(197, 141, 68);
+}
+
+.texto__home {
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+}
+    
+
+.subtitulo__home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(197, 141, 68);
+}
+
+.contenedor__textos--home {
+    max-width: 700px;  
+    margin: 25px;
+}
+
+
+.mensaje__contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 50%;
+}
+
+.texto__mensaje {
+    color: rgb(1, 97, 1);
+}
+
+.formulario__contacto {
+    color: rgb(1, 97, 1);
+    max-width: 700px;
+    margin: 20px;
 }
 
 .pie {
@@ -144,12 +182,21 @@
     color: rgb(176, 123, 53);
   }
 
+.tarjeta__imagen {
+    transition: all 1s;
+}
+
+  .tarjeta__imagen:hover {
+    transform: scale(1.1);
+  }
+
 
 @media (min-width: 801px) {
     .caja1 {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
     }
 
 .tarjetas__inicio {
