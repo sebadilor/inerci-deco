@@ -92,7 +92,7 @@
 }
 
 .nosotros {
-    background-image: url(../img/arreglo-objeto-hecho-mano-macrame_23-2149064423.jpg);
+    background-image: url(../img/diseno-interiores-sala-estar-japandi_53876-145502.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -269,6 +269,95 @@
     animation-delay: 1.6s;
 }
 
+.titulo--nosotros {
+    animation-delay: 1s;
+}
+
+.texto1--nosotros {
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.4s;
+}
+
+.titulo1--nosotros {
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.5s;
+}
+
+.texto2--nosotros {
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.6s;
+}
+
+.titulo2--nosotros {
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.7s;
+}
+
+.texto3--nosotros {
+    -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.8s;
+}
+
+.nosotros {
+    -webkit-animation:scale-in-hor-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-hor-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+
+
+
+
+.titulo--home-deco {
+    -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+}
+
+.texto__principal--home {
+    -webkit-animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.2s;
+}
+
+.subtitulo1__animacion--home {
+    -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.3s;
+}
+
+.texto1__animacion--home {
+    -webkit-animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.4s;
+}
+
+
+.subtitulo2__animacion--home {
+    -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.5s;
+}
+
+.texto2__animacion--home {
+    -webkit-animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.6s;
+}
+
+.subtitulo3__animacion--home {
+    -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.7s;
+}
+
+.texto3__animacion--home {
+    -webkit-animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.8s;
+}
+
+.subtitulo4__animacion--home {
+    -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.9s;
+}
+
+.texto4__animacion--home {
+    -webkit-animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 2s;
+}
+
+
 @-webkit-keyframes slide-in-elliptic-left-fwd{0%{-webkit-transform:translateX(-800px) rotateY(30deg) scale(0);transform:translateX(-800px) rotateY(30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:1800px 50%;transform-origin:1800px 50%;opacity:1}}@keyframes slide-in-elliptic-left-fwd{0%{-webkit-transform:translateX(-800px) rotateY(30deg) scale(0);transform:translateX(-800px) rotateY(30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:1800px 50%;transform-origin:1800px 50%;opacity:1}}
 
 
@@ -282,6 +371,23 @@
 
 
  @-webkit-keyframes scale-in-ver-center{0%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}}@keyframes scale-in-ver-center{0%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}}
+
+
+ @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+
+
+
+ @-webkit-keyframes scale-in-hor-center{0%{-webkit-transform:scaleX(0);transform:scaleX(0);opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);opacity:1}}@keyframes scale-in-hor-center{0%{-webkit-transform:scaleX(0);transform:scaleX(0);opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);opacity:1}}
+
+
+
+
+
+
+@-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+
+ @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
 
  /*** michalsnik ***/
 
