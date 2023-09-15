@@ -92,7 +92,7 @@
 }
 
 .nosotros {
-    background-image: url(../img/1000_F_443553257_2CGHvyBZ4zOoAdpgaAAQUxW3frEpwFbJ.jpg);
+    background-image: url(../img/arreglo-objeto-hecho-mano-macrame_23-2149064423.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -111,7 +111,7 @@
 .nosotros p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
 }
     
 .caja1 span {
@@ -182,14 +182,115 @@
     color: rgb(176, 123, 53);
   }
 
+  .tarjeta__inicio {
+    transition: all .5s;
+  }
+
+  .tarjeta__inicio:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+
+
 .tarjeta__imagen {
-    transition: all 1s;
+    transition: all .3s;
 }
 
   .tarjeta__imagen:hover {
     transform: scale(1.1);
   }
 
+
+  /*** ANIMACIONES ***/
+
+  /*** ANIMATION ***/
+
+  .logo {
+    -webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .1s;
+  }
+
+  .inicio {
+    -webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .2s;
+  }
+
+  .nos {
+    -webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .3s;
+  }
+
+  .productos {
+    -webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .4s;
+  }
+
+  .home-deco {
+    -webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .5s;
+  }
+
+  .contacto {
+    -webkit-animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-elliptic-left-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .6s;
+  }
+
+
+  .buscador {
+    -webkit-animation:slide-in-elliptic-right-fwd .7s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-elliptic-right-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .3s;
+  }
+
+  .enviar {
+    -webkit-animation:slide-in-elliptic-right-fwd .7s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-elliptic-right-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .2s;
+  }
+
+  
+.titulo--inicio {
+    animation-delay: 1s;
+}
+
+
+.texto--titulo--inicio {
+    -webkit-animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;
+    animation-delay: 1.4s;
+}
+
+.imagen__principal {
+    -webkit-animation:kenburns-top 5s linear both;animation:kenburns-top 5s linear both;
+    -webkit-animation:scale-in-ver-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-ver-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1.6s;
+}
+
+@-webkit-keyframes slide-in-elliptic-left-fwd{0%{-webkit-transform:translateX(-800px) rotateY(30deg) scale(0);transform:translateX(-800px) rotateY(30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:1800px 50%;transform-origin:1800px 50%;opacity:1}}@keyframes slide-in-elliptic-left-fwd{0%{-webkit-transform:translateX(-800px) rotateY(30deg) scale(0);transform:translateX(-800px) rotateY(30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:1800px 50%;transform-origin:1800px 50%;opacity:1}}
+
+
+ @-webkit-keyframes slide-in-elliptic-right-fwd{0%{-webkit-transform:translateX(800px) rotateY(-30deg) scale(0);transform:translateX(800px) rotateY(-30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:-1800px 50%;transform-origin:-1800px 50%;opacity:1}}@keyframes slide-in-elliptic-right-fwd{0%{-webkit-transform:translateX(800px) rotateY(-30deg) scale(0);transform:translateX(800px) rotateY(-30deg) scale(0);-webkit-transform-origin:-100% 50%;transform-origin:-100% 50%;opacity:0}100%{-webkit-transform:translateX(0) rotateY(0) scale(1);transform:translateX(0) rotateY(0) scale(1);-webkit-transform-origin:-1800px 50%;transform-origin:-1800px 50%;opacity:1}}
+
+
+ @-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+
+ @-webkit-keyframes kenburns-top{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 16%;transform-origin:50% 16%}100%{-webkit-transform:scale(1.25) translateY(-15px);transform:scale(1.25) translateY(-15px);-webkit-transform-origin:top;transform-origin:top}}@keyframes kenburns-top{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 16%;transform-origin:50% 16%}100%{-webkit-transform:scale(1.25) translateY(-15px);transform:scale(1.25) translateY(-15px);-webkit-transform-origin:top;transform-origin:top}}
+
+
+ @-webkit-keyframes scale-in-ver-center{0%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}}@keyframes scale-in-ver-center{0%{-webkit-transform:scaleY(0);transform:scaleY(0);opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);opacity:1}}
+
+ /*** michalsnik ***/
+
+
+
+
+
+
+/*** MEDIA ***/
 
 @media (min-width: 801px) {
     .caja1 {

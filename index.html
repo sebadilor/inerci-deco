@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./img/logo/logo pagina (1).png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <header class="sticky-top">
@@ -19,13 +24,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link active inicio" aria-current="page" href="./index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    <a class="nav-link nos" href="./pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle productos" href="./pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Productos
                     </a>
                     <ul class="dropdown-menu">
@@ -37,19 +42,16 @@
                         <li><a class="dropdown-item" href="./img/catalogo/Catalogo .pdf" target="_blank">Catálogo</a></li>
                     </ul>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./pages/home_deco.html">Home Deco</a>
+                        <a class="nav-link home-deco" aria-current="page" href="./pages/home_deco.html">Home Deco</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./pages/contactos.html">Contacto</a>
+                        <a class="nav-link contacto" aria-current="page" href="./pages/contactos.html">Contacto</a>
                     </li>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2 buscador" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success enviar" type="submit">Search</button>
                 </form>
               </div>
             </div>
@@ -58,8 +60,8 @@
     <main>
         <section class="caja1">
             <div class="container">
-                <h1>Bienvenido a tu hogar</h1>
-                <p>Convertimos tu casa vacía en un hermoso hogar, haciendo los lugares compactos con muebles que ahorran espacio. ¡Hacemos realidad tus gustos únicos!</p>
+                <h1 class="titulo--inicio animate__animated animate__bounceIn">Bienvenido a tu hogar</h1>
+                <p class="texto--titulo--inicio">Convertimos tu casa vacía en un hermoso hogar, haciendo los lugares compactos con muebles que ahorran espacio. ¡Hacemos realidad tus gustos únicos!</p>
             </div>
         </section>
     </main>
@@ -68,10 +70,13 @@
     </section>
     <section>
       <div class="subtitulo__inicio">
-        <h2>Lo más vendido</h2>
+        <h2 data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Lo más vendido</h2>
       </div>
     </section>
-    <section class="tarjetas__inicio">
+    <section class="tarjetas__inicio" data-aos="fade-up"
+    data-aos-duration="1000">
       <div class="tarjeta__inicio">
         <img class="tarjeta__imagen principal" src="./img/calabaza-grande-madura-sobre-arpillera_114579-29487.avif" alt="decoración macramé">
         <p class="tarjeta__texto--inicio">Colgante de pared en macramé bohemio, tamaño mediano en madera flotante. Diseñado para ser una pieza llamativa montada sobre un sofá o sobre una cama, ¡pero también se ve fantástico como parte de la pared de una galería!</p>
@@ -87,10 +92,13 @@
     </section>
     <section>
       <div>
-        <h2 class="subtitulo__inicio">Algunas de nuestras manualidades hechas con amor</h2>
+        <h2 class="subtitulo__inicio" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Algunas de nuestras manualidades hechas con amor</h2>
       </div>
     </section>
-    <section class="tarjetas__inicio">
+    <section class="tarjetas__inicio" data-aos="fade-up"
+    data-aos-duration="1000">>
       <div class="tarjeta__inicio">
         <img class="tarjeta__imagen principal" src="./img/hermoso-diseno-interiores-plantas-alto-angulo_23-2149383644.avif" alt="decoración macramé">
         <p class="tarjeta__texto--inicio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis ipsum dolorem assumenda minima repellat maxime officiis ipsa modi fuga magnam quam, voluptate laudantium nihil, rerum praesentium iure fugit unde accusantium.</p>
@@ -104,7 +112,8 @@
         <p class="tarjeta__texto--inicio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid obcaecati modi voluptate illo autem, voluptatibus officia laudantium magni asperiores vitae doloremque. Accusantium ab maxime adipisci distinctio numquam amet, quod ducimus!</p>
       </div> 
     </section>
-    <footer class="pie">
+    <footer class="pie" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">>
         <div class="pie__pagina">
             <div>
                 <p>© Copyright 2023. Todos los Derechos Reservados. Política de Privacidad | Términos & Condiciones</p>
@@ -127,11 +136,12 @@
               </svg></a>
             </div>
         </div>
-
-      
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 </html>
