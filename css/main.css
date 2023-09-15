@@ -102,6 +102,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .nosotros h1 {
@@ -114,11 +115,26 @@
     
 }
 
+.titulo__principal--producto {
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.texto__principal--producto {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
 
 .contenedor__imagen--productos {
-    border: 2px solid green;
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    gap: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -131,6 +147,14 @@
 
 .imagen__producto {
     border: 1px solid red;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+    overflow: hidden;
+    min-height: 200px;
+    background-color: rgb(240, 240, 240);
 }
 
 .imagen__producto1 {
@@ -166,6 +190,18 @@
     overflow: hidden;
     background-image: url(../img/macrame1.jpeg);
 }
+
+
+.contenedor__imagen--productos  .imagen__producto2 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    background-image: url(../img/interior-sala-estar-tiene-gabinete-tv-sillon-cuero-habitacion-blanca-representacion-3d_41470-4241.avif);
+}
+
+
+
 
 .caja1 span {
     color: rgb(197, 141, 68);
@@ -470,6 +506,29 @@
 .tarjeta__texto--inicio {
     padding: 0;
 }
+}
+
+
+@media (max-width: 768px) {
+    .texto__principal--producto {
+        font-size: 14px;
+        margin-bottom: 10px; 
+    }
+
+    .contenedor__imagen--productos {
+        margin-bottom: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .texto__principal--producto {
+        font-size: 12px; 
+        margin-bottom: 5px; 
+    }
+
+    .contenedor__imagen--productos {
+        margin-bottom: 5px; 
+    }
 }
 
 @media (min-width: 801px) {
