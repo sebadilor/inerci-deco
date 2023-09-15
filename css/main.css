@@ -113,7 +113,60 @@
     font-weight: 900;
     
 }
+
+
+.contenedor__imagen--productos {
+    border: 2px solid green;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "imagen__producto1  imagen__producto2  imagen__producto2"
+        "imagen__producto1  imagen__producto3  imagen__producto4"
+        "imagen__producto5  imagen__producto5  imagen__producto4"
+        "imagen__producto5  imagen__producto5  imagen__producto6";
+}
+
+.imagen__producto {
+    border: 1px solid red;
+}
+
+.imagen__producto1 {
+    grid-area: imagen__producto1;
+}
     
+.imagen__producto2 {
+    grid-area: imagen__producto2;
+}
+
+.imagen__producto3 {
+    grid-area: imagen__producto3;
+}
+
+.imagen__producto4 {
+    grid-area: imagen__producto4;
+}
+
+.imagen__producto5 {
+    grid-area: imagen__producto5;
+}
+
+.imagen__producto6 {
+    grid-area: imagen__producto6;
+}
+
+.contenedor__imagen--productos  .imagen__producto1 {
+    display: grid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+    overflow: hidden;
+    background-image: url(../img/macrame1.jpeg);
+}
+
 .caja1 span {
     color: rgb(197, 141, 68);
 }
