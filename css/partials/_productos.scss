@@ -1,0 +1,299 @@
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0 20px 0 20px;
+
+    .titulo__principal--producto {
+        text-align: center;
+        margin-bottom: 10px;
+        max-width: 100%;
+        animation-delay: 1s;
+
+        .caja1 h1, h2 {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 900;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .caja1 p {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 300;
+            text-align: center;
+
+            .texto__principal--producto {
+                text-align: center;
+                font-size: 16px;
+                margin-bottom: 30px;
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+.titulo__principal--producto {
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.contenedor__imagen--productos {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "imagen__producto1  imagen__producto2  imagen__producto2"
+        "imagen__producto1  imagen__producto3  imagen__producto4"
+        "imagen__producto5  imagen__producto5  imagen__producto4"
+        "imagen__producto5  imagen__producto5  imagen__producto6";
+
+        imagen__producto {
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            place-items: center;
+            overflow: hidden;
+            min-height: 200px;
+            background-color: rgb(240, 240, 240);
+        }
+
+}
+
+
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-color {
+    background-color: rgba(186, 132, 33, 0.142);
+}
+
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0 20px 0 20px;
+}
+
+.imagen__principal {
+    margin: 20px 0 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.tarjetas__inicio {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px 60px 60px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.tarjeta__inicio {
+    background-color: rgba(196, 129, 63, 0.567);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta__texto--inicio {
+    text-align: center;
+    padding-inline: 20px;
+}
+
+.tarjeta__imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.subtitulo__inicio {
+    padding-block: 30px 0 20px 0;
+}
+
+
+.caja1 h1, h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 1rem;
+}
+
+.caja1 h2 {
+    color: rgb(176, 123, 53);
+}
+
+
+.caja1 p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.nosotros {
+    background-image: url(../img/terraza-borrosa_1203-88.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nosotros h1 {
+    padding: 0 0 50px 0;
+}
+
+.nosotros p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    
+}
+
+.titulo__principal--producto {
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.texto__principal--producto {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+
+.titulo__principal--producto {
+    animation-delay: 1s;
+}
+
+.contenedor__imagen--productos {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "imagen__producto1  imagen__producto2  imagen__producto2"
+        "imagen__producto1  imagen__producto3  imagen__producto4"
+        "imagen__producto5  imagen__producto5  imagen__producto4"
+        "imagen__producto5  imagen__producto5  imagen__producto6";
+}
+
+.imagen__producto {
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+    overflow: hidden;
+    min-height: 200px;
+    background-color: rgb(240, 240, 240);
+}
+
+.imagen__producto1 {
+    grid-area: imagen__producto1;
+}
+    
+.imagen__producto2 {
+    grid-area: imagen__producto2;
+}
+
+.imagen__producto3 {
+    grid-area: imagen__producto3;
+}
+
+.imagen__producto4 {
+    grid-area: imagen__producto4;
+}
+
+.imagen__producto5 {
+    grid-area: imagen__producto5;
+}
+
+.imagen__producto6 {
+    grid-area: imagen__producto6;
+}
+
+.contenedor__imagen--productos  .imagen__producto1 {
+    display: grid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+    overflow: hidden;
+    background-image: url(../img/macrame1.jpeg);
+}
+
+
+.contenedor__imagen--productos  .imagen__producto2 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    background-image: url(../img/interior-sala-estar-tiene-gabinete-tv-sillon-cuero-habitacion-blanca-representacion-3d_41470-4241.avif);
+}
+
+
+
+.contenedor__imagen--productos  .imagen__producto3 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    background-image: url(../img/espejo1.jpeg);
+}
+
+.contenedor__imagen--productos  .imagen__producto4 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    background-image: url(../img/vista-superior-textura-tela_23-2148952751.jpg);
+}
+
+
+.contenedor__imagen--productos  .imagen__producto5 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    background-image: url(../img/varios.jpeg.webp);
+}
+
+.contenedor__imagen--productos  .imagen__producto6 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    background-image: url(../img/servilleta2.jpeg);
+}

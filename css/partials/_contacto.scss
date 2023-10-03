@@ -1,0 +1,41 @@
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0 20px 0 20px;
+
+        .caja1 h1, h2 {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 900;
+            text-align: center;
+            margin: 1rem;
+
+            .caja1 span {
+                color: rgb(197, 141, 68);
+            }
+        }
+
+        .caja1 p {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+
+.mensaje__contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 50%;
+
+    .texto__mensaje {
+        color: rgb(1, 97, 1);
+    }
+}
+
+.formulario__contacto {
+    color: rgb(1, 97, 1);
+    max-width: 700px;
+    margin: 20px;
+}
+
